@@ -59,28 +59,3 @@ const convertToRoman = (numberToConvert) => {
 };
 
 module.exports = convertToRoman;
-//
-// function romanize(num) {
-//   const isNumberToBigToConvert = num >= 4000;
-//   if (isNumberToBigToConvert) {
-//     return 'the biggest number is 3999, sorry!';
-//   }
-//
-//   const isNegative = num < 0;
-//   if (isNegative) {
-//     return 'we don\'t convert negative numbers';
-//   }
-//
-//   const isZero = num == 0;
-//
-//       roman = '',
-//       i;
-//   for ( i in lookup ) {
-//     while ( num >= lookup[i] ) {
-//       roman += i;
-//       num -= lookup[i];
-//     }
-//   }
-//
-//   return isZero ? 'nulla' : roman;
-// }
