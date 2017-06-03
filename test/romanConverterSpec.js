@@ -5,7 +5,6 @@ const convertNumberToRoman = require('../src/romanConverter');
 describe('Convert numbers successfully', () => {
   it('should convert 10 to X', () => {
     expect(convertNumberToRoman(10)).to.be.equal('X');
-    // assert.equal(convertNumberToRoman(10), 'X');
   });
   it('should convert 25 to XXV', () => {
     expect(convertNumberToRoman(25)).to.be.equal('XXV');
