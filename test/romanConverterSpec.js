@@ -7,7 +7,7 @@ describe('Convert numbers successfully', () => {
     expect(convertNumberToRoman(10)).to.be.equal('X');
   });
   it('should convert 25 to XXV', () => {
-    expect(convertNumberToRoman(25)).to.be.equal('XXV');
+    expect(convertNumberToRoman(24)).to.be.equal('XXV');
   });
   it('should convert 180 to CLXXX', () => {
     expect(convertNumberToRoman(180)).to.be.equal('CLXXX');
