@@ -22,18 +22,18 @@ describe('Convert numbers successfully', () => {
 
 describe('Validations', () => {
   it('should fail when number is bigger then 3999', () => {
-    assert.throws(() => { convertNumberToRoman(4001) }, RangeError);
-  })
+    assert.throws(() => { convertNumberToRoman(4001); }, RangeError);
+  });
   it('should fail when number is negative', () => {
-    assert.throws(() => { convertNumberToRoman(-15) }, RangeError);
-  })
+    assert.throws(() => { convertNumberToRoman(-15); }, RangeError);
+  });
   it('should fail when number is zero', () => {
-    assert.throws(() => { convertNumberToRoman(0) }, RangeError);
-  })
+    assert.throws(() => { convertNumberToRoman(0); }, RangeError);
+  });
   it('should fail when it\'s not a number', () => {
-    assert.throws(() => { convertNumberToRoman('asd') }, TypeError);
-  })
+    assert.throws(() => { convertNumberToRoman('asd'); }, TypeError);
+  });
   it('should fail when it\'s a float number', () => {
-    assert.throws(() => { convertNumberToRoman(123.3) }, TypeError);
-  })
+    assert.throws(() => { convertNumberToRoman(123.3); }, TypeError);
+  });
 });
