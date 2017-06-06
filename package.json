@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "eslint . && mocha",
+    "test": "eslint . && nyc mocha",
     "lint": "eslint ."
   },
   "author": "mrholeechit",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.3.0"
+    "eslint-plugin-import": "^2.3.0",
+    "nyc": "^11.0.2"
   }
 }
