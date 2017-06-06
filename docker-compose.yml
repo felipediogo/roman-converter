@@ -1,0 +1,3 @@
+roman-converter:
+  build: .
+  command: npm test
